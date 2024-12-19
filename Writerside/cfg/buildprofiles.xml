@@ -3,11 +3,34 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
-    <build-profile instance="in">
+    <variables>
+        <primary-color>metallic</primary-color>
+        <color-preset>vivid</color-preset>
+        <custom-favicons>Original Logo Symbol No BG Light.png</custom-favicons>
+        <header-logo>Original Logo Symbol No BG Light.png</header-logo>
+
+        <download-title>Download</download-title>
+        <download-page>https://gecco.dev/download</download-page>
+        <showDownloadButton>true</showDownloadButton>
+    </variables>
+    <build-profile instance="g">
         <variables>
             <noindex-content>true</noindex-content>
         </variables>
     </build-profile>
+
+    <footer>
+        <copyright>2024 Gecco Contributors</copyright>
+        <link href="https://github.com/GeccoLand/Gecco">Source Code</link>
+        <link href="https://github.com/GeccoLand/Gecco/CONDUCT.md">Code of Conduct</link>
+        <link href="https://github.com/GeccoLand/Gecco/CONTRIBUTING.md">How to Contribute</link>
+        <link href="https://github.com/GeccoLand/Gecco/issues">Report a Bug</link>
+
+        <social type="twitter" href="https://twitter.com/geccoland"/>
+        <social type="facebook" href="https://facebook.com/geccoland"/>
+        <social type="linkedin" href="https://linkedin.com/geccoland"/>
+        <social type="youtube" href="https://youtube.com/@geccoland"/>
+        <social type="instagram" href="https://instagram.com/geccoland"/>
+    </footer>
 
 </buildprofiles>
