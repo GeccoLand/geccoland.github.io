@@ -4,9 +4,9 @@
 
 <instance-profile id="g"
                  name="Gecco"
-                 start-page="Overview.md">
+                 start-page="Index.md">
 
-    <toc-element topic="Overview.md"/>
+    <toc-element topic="Index.md"/>
     <toc-element toc-title="Getting Started">
         <toc-element topic="Installation-guide.md"/>
         <toc-element topic="Creating Your First Program.md"/>
