@@ -9,6 +9,11 @@ env:
   INSTANCE: 'Writerside/g'
   DOCKER_VERSION: '243.22562'
 
+permissions:
+  contents: read
+  id-token: write
+  pages: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
