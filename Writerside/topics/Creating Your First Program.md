@@ -18,7 +18,7 @@ Let’s start with the classic "Hello, World!" program. Open your preferred text
 
 ### Example Code: `hello.gec`
 
-```gecco
+```
 class Main {
     // Entry point of the program
     static func main() {
